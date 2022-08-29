@@ -1,0 +1,13 @@
+{
+    "name": "jortega/module-magento244-example-module",
+    "description": "A Magento 2 module example",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jortega\\Magento244ExampleModule\\": ""
+        }
+    }
+}
